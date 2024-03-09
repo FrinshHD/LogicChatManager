@@ -8,7 +8,7 @@
         <groupId>de.frinshhd</groupId>
         <artifactId>LogicChatManager</artifactId>
         <version>${global.version}</version>
-        <relativePath>..</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>spigot</artifactId>
