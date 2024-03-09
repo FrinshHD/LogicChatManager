@@ -6,7 +6,7 @@
 
     <groupId>de.frinshhd</groupId>
     <artifactId>LogicChatManager</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${global.version}</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -19,6 +19,8 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <global.version>0.0.1${BUILD_NUMBER}</global.version>
+        <BUILD_NUMBER/>
         <pluginName>LogicChatManager</pluginName>
     </properties>
 
