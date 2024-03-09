@@ -1,0 +1,4 @@
+name: LogicChatManager
+version: '${project.parent.version}'
+main: de.frinshhd.spigot.SpigotMain
+api-version: '1.20'
