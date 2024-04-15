@@ -29,8 +29,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>9</source>
+                    <target>9</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -64,6 +64,11 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>logicrepos-developement</id>
+            <name>Logic Repository</name>
+            <url>https://logic-repos.anturnia.net/developement</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -72,6 +77,16 @@
             <artifactId>spigot-api</artifactId>
             <version>1.20.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>de.frinshhd</groupId>
+            <artifactId>core</artifactId>
+            <version>${global.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.frinshhd</groupId>
+            <artifactId>LogicSpigotCore</artifactId>
+            <version>0.0.1.6-dev</version>
         </dependency>
     </dependencies>
 </project>
